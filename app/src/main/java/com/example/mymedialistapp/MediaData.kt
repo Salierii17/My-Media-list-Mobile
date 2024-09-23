@@ -7,5 +7,5 @@ import kotlinx.parcelize.Parcelize
 data class MediaData(
     val title: String,
     val description: String,
-    val cover: String
+    val cover: Int
 ) : Parcelable
