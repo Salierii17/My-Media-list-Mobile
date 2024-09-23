@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">MyMediaListApp</string>
+    <string name="media_image">Media Image</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+    <string-array name="data_title">
+        <item>Breaking Bad</item>
+        <item>Mr. Robot</item>
+        <item>Game of Thrones</item>
+        <item>Gintama</item>
+        <item>Attack on Titan</item>
+        <item>Loki</item>
+        <item>Steins;Gate</item>
+        <item>Code Geass</item>
+        <item>Persona 5 Royal</item>
+        <item>Elden Ring</item>
+        <item>Sekiro: Shadows Die Twice</item>
+        <item>Persona 3 Reload</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Breaking Bad tells the story of Walter White, a high school chemistry teacher diagnosed with cancer. Faced with his impending death and desperate to secure his family\'s future, he turns to manufacturing and selling methamphetamine. Alongside his former student Jesse Pinkman, Walter descends into the dangerous world of drug cartels, deception, and moral corruption. He gradually transforms from a mild-mannered teacher into a ruthless criminal mastermind. The series explores the consequences of his choices as his double life spirals out of control.</item>
+        <item>Mr. Robot follows Elliot Alderson, a brilliant but socially awkward cybersecurity engineer and hacker struggling with mental illness. Recruited by an anarchist called Mr. Robot, Elliot joins a hacktivist group aiming to topple the corrupt corporate world. As he delves deeper into this underground movement, Elliot grapples with his fractured sense of reality, paranoia, and trust issues. The show explores psychological warfare, global conspiracy, and personal identity, challenging viewers to question the nature of control in one\'s life.</item>
+        <item>Game of Thrones is an epic fantasy series set in the fictional continents of Westeros and Essos. Noble families vie for control of the Iron Throne and the Seven Kingdoms, while political intrigue and betrayal consume the realm. As these power struggles unfold, a dark supernatural threat emerges from the North. The series masterfully weaves together multiple character arcs, exploring themes of power, legacy, and the brutal nature of war. Meanwhile, exiled princess Daenerys Targaryen amasses power overseas, determined to reclaim her birthright. The world teeters on the brink of chaos as winter approaches and ancient prophecies come to life.</item>
+        <item>Gintama is a uniquely absurd and comedic anime set in an alternate-history Edo period Japan, where aliens called the Amanto have invaded Earth. The story follows the eccentric samurai Gintoki Sakata, who runs an odd-jobs business with his equally quirky friends, Shinpachi and Kagura. Together, they encounter hilarious and bizarre adventures while subtly commenting on serious themes like honor, friendship, and societal changes. The series masterfully blends slapstick humor, satire, and heartfelt moments, creating an emotional rollercoaster that leaves a lasting impression on viewers.</item>
+        <item>Attack on Titan is a post-apocalyptic anime set in a world where humanity teeters on the brink of extinction due to giant, humanoid creatures known as Titans. These terrifying monsters have ravaged civilization, forcing humans to retreat behind enormous walled cities. The series follows Eren Yeager and his friends as they join elite military forces tasked with defending humanity and uncovering the truth behind the Titans. As the story unfolds, revelations about the Titans\' origins emerge, and the struggle for humanity\'s survival grows increasingly complex and harrowing.</item>
+        <item>Loki follows the iconic trickster god after the events of "Avengers: Endgame," where an alternate version of Loki escapes with the Tesseract, creating a new timeline. Captured by the Time Variance Authority (TVA), he\'s forced to confront the nature of free will and identity while helping investigate temporal anomalies. Along the way, Loki encounters other versions of himself—known as variants—and becomes embroiled in a battle against forces threatening to unravel the multiverse. His journey is one of self-discovery, as he grapples with past misdeeds and seeks redemption.</item>
+        <item>Steins;Gate weaves a mind-bending tale of Rintarou Okabe, a self-proclaimed mad scientist, and his friends who stumble upon a way to send messages to the past using a modified microwave. As they delve into their newfound power, they swiftly grasp the perilous consequences of meddling with time. Okabe must navigate the treacherous waters of the butterfly effect, confront unexpected tragedies, and battle shadowy organizations hell-bent on controlling time itself. The series brilliantly melds science fiction with emotional depth, as characters wrestle with the moral and personal ramifications of their actions.</item>
+        <item>Code Geass is set in an alternate reality where the Holy Britannian Empire has conquered much of the world, including Japan—now renamed Area 11. The story follows Lelouch vi Britannia, a former prince who vows to overthrow his father\'s oppressive regime after gaining the power of Geass—a supernatural ability that allows him to control anyone with a single command. Disguised as the masked vigilante Zero, Lelouch leads a rebellion against Britannia while juggling his double life as a high school student. The series explores themes of power, sacrifice, and the cost of revolution.</item>
+        <item>Persona 5 Royal is an enhanced version of the critically acclaimed JRPG Persona 5. Players take on the role of a high school student leading a double life as a member of the Phantom Thieves—a group using supernatural powers to enter the Metaverse, a mysterious realm. Their goal: to change the corrupt hearts of powerful individuals in society by stealing their distorted desires. The game masterfully balances forming bonds with diverse characters, everyday school life, dungeon crawling, and turn-based battles. Royal expands on the original story, introducing new characters, dungeons, and endings.</item>
+        <item>Elden Ring, an expansive action RPG from FromSoftware, unfolds in a vast, perilous open world steeped in mystery and ancient lore. Players embody a Tarnished—a fallen warrior striving to reclaim power and restore order to the shattered Lands Between. The game\'s non-linear design invites exploration of diverse environments, uncovering secrets and confronting fearsome bosses in unforgiving combat. While building on FromSoftware\'s core mechanics, Elden Ring introduces fresh elements like mounted combat and emphasizes exploration and player freedom, pushing the boundaries of the studio\'s acclaimed formula.</item>
+        <item>Sekiro: Shadows Die Twice is an intense action-adventure game following Wolf, a shinobi on a mission to rescue his kidnapped lord and seek vengeance in a fantastical Sengoku-period Japan. The game is renowned for its punishing difficulty, demanding players master precise combat and stealth to overcome formidable foes. Departing from traditional RPG elements, Sekiro emphasizes skill-based progression. Its narrative weaves rich themes of honor, loyalty, and redemption as Wolf confronts both human enemies and supernatural creatures.</item>
+        <item>Persona 3 Reload is a remake of the beloved Persona 3, which pioneered the concept of social links, seamlessly blending everyday life with supernatural RPG elements. Players assume the role of a high school student juggling academic life, friendships, and nightly battles against Shadows in the enigmatic realm of Tartarus. The game explores profound themes of mortality, personal growth, and life\'s meaning. With its enhanced visuals, updated mechanics, and additional content, the Reload version offers a definitive experience for both newcomers and long-time fans alike.</item>
+    </string-array>
+
+    <integer-array name="data_cover">
+        <item>@drawable/breaking_bad_cover</item>
+        <item>@drawable/mr_robot_cover</item>
+        <item>@drawable/got_cover</item>
+        <item>@drawable/gintama_cover</item>
+        <item>@drawable/aot_cover</item>
+        <item>@drawable/loki_cover</item>
+        <item>@drawable/steins_gate_cover</item>
+        <item>@drawable/code_geass_cover</item>
+        <item>@drawable/p5_cover</item>
+        <item>@drawable/elden_ring_cover</item>
+        <item>@drawable/sekiro_cover</item>
+        <item>@drawable/p5_cover</item>
+    </integer-array>
+
 </resources>
+
+
