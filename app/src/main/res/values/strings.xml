@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyMediaListApp</string>
+    <string name="app_name">MyMediaList</string>
     <string name="media_image">Media Image</string>
     <string name="title">Title</string>
     <string name="description">Description</string>
