@@ -24,15 +24,14 @@ class ListMediaAdapter(private val listMedia: ArrayList<MediaData>) :
         val (title, description, cover) = listMedia[position]
         holder.binding.tvTitle.text = title
         holder.binding.tvDescription.text = description
-        Glide.with(holder.itemView.context)
-            .load(cover)
-            .into(holder.binding.coverItem)
+        Glide.with(holder.itemView.context).load(cover).into(holder.binding.coverItem)
         holder.itemView.setOnClickListener {
             val intent = Intent(holder.itemView.context, DetailActivity::class.java)
             intent.putExtra("title", title)
             intent.putExtra("description", description)
             intent.putExtra("cover", cover)
             holder.itemView.context.startActivity(intent)
+            onItemClickCallback.onItemClicked(listMedia[holder.adapterPosition])
         }
     }
 
@@ -40,12 +39,6 @@ class ListMediaAdapter(private val listMedia: ArrayList<MediaData>) :
 
     interface OnItemClickCallback {
         fun onItemClicked(data: MediaData)
-//        fun onItemClicked(Intent)
-    }
-
-    interface OnItemClickListeener {
-        fun onItemClicked(data: MediaData)
-//        fun onItemClicked(Intent)
     }
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
