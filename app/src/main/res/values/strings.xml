@@ -3,6 +3,10 @@
     <string name="media_image">Media Image</string>
     <string name="title">Title</string>
     <string name="description">Description</string>
+    <string name="profile">Profile</string>
+    <string name="email">sulthanza06@gmail.com</string>
+    <string name="user_name">Sulthan Zimran Alrazzaq</string>
+    <string name="img_description">Image</string>
 
     <string-array name="data_title">
         <item>Breaking Bad</item>
@@ -22,7 +26,7 @@
     <string-array name="data_description">
         <item>Breaking Bad tells the story of Walter White, a high school chemistry teacher diagnosed with cancer. Faced with his impending death and desperate to secure his family\'s future, he turns to manufacturing and selling methamphetamine. Alongside his former student Jesse Pinkman, Walter descends into the dangerous world of drug cartels, deception, and moral corruption. He gradually transforms from a mild-mannered teacher into a ruthless criminal mastermind. The series explores the consequences of his choices as his double life spirals out of control.</item>
         <item>Mr. Robot follows Elliot Alderson, a brilliant but socially awkward cybersecurity engineer and hacker struggling with mental illness. Recruited by an anarchist called Mr. Robot, Elliot joins a hacktivist group aiming to topple the corrupt corporate world. As he delves deeper into this underground movement, Elliot grapples with his fractured sense of reality, paranoia, and trust issues. The show explores psychological warfare, global conspiracy, and personal identity, challenging viewers to question the nature of control in one\'s life.</item>
-        <item>Game of Thrones is an epic fantasy series set in the fictional continents of Westeros and Essos. Noble families vie for control of the Iron Throne and the Seven Kingdoms, while political intrigue and betrayal consume the realm. As these power struggles unfold, a dark supernatural threat emerges from the North. The series masterfully weaves together multiple character arcs, exploring themes of power, legacy, and the brutal nature of war. Meanwhile, exiled princess Daenerys Targaryen amasses power overseas, determined to reclaim her birthright. The world teeters on the brink of chaos as winter approaches and ancient prophecies come to life.</item>
+        <item>Game of Thrones, an epic fantasy series, unfolds in Westeros and Essos. Noble families battle for the Iron Throne amidst political intrigue and betrayal. A supernatural threat looms from the North as multiple character arcs intertwine, exploring power, legacy, and war. Overseas, exiled Daenerys Targaryen builds her strength to reclaim her birthright. As winter nears and prophecies awaken, chaos threatens to engulf the world.</item>
         <item>Gintama is a uniquely absurd and comedic anime set in an alternate-history Edo period Japan, where aliens called the Amanto have invaded Earth. The story follows the eccentric samurai Gintoki Sakata, who runs an odd-jobs business with his equally quirky friends, Shinpachi and Kagura. Together, they encounter hilarious and bizarre adventures while subtly commenting on serious themes like honor, friendship, and societal changes. The series masterfully blends slapstick humor, satire, and heartfelt moments, creating an emotional rollercoaster that leaves a lasting impression on viewers.</item>
         <item>Attack on Titan is a post-apocalyptic anime set in a world where humanity teeters on the brink of extinction due to giant, humanoid creatures known as Titans. These terrifying monsters have ravaged civilization, forcing humans to retreat behind enormous walled cities. The series follows Eren Yeager and his friends as they join elite military forces tasked with defending humanity and uncovering the truth behind the Titans. As the story unfolds, revelations about the Titans\' origins emerge, and the struggle for humanity\'s survival grows increasingly complex and harrowing.</item>
         <item>Loki follows the iconic trickster god after the events of "Avengers: Endgame," where an alternate version of Loki escapes with the Tesseract, creating a new timeline. Captured by the Time Variance Authority (TVA), he\'s forced to confront the nature of free will and identity while helping investigate temporal anomalies. Along the way, Loki encounters other versions of himself—known as variants—and becomes embroiled in a battle against forces threatening to unravel the multiverse. His journey is one of self-discovery, as he grapples with past misdeeds and seeks redemption.</item>
@@ -46,7 +50,7 @@
         <item>@drawable/p5_cover</item>
         <item>@drawable/elden_ring_cover</item>
         <item>@drawable/sekiro_cover</item>
-        <item>@drawable/p5_cover</item>
+        <item>@drawable/p3_cover</item>
     </integer-array>
 
 </resources>
