@@ -1,8 +1,10 @@
 package com.example.mymedialistapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -44,8 +46,23 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+
     private fun showSelectedMedia(data: MediaData) {
         Toast.makeText(this, "You choose " + data.title, Toast.LENGTH_SHORT).show()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_profile, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_profile -> {
+                val intent = Intent(this, AboutActivity::class.java)
+                startActivity(intent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
 }
